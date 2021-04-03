@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PI2 PDM</string>
+    <string name="primeiro_texto">Eita disgrtameira</string>
+    <string name="teste_pelo_editor">VALOR DO EDITOR</string>
+    <string name="hint_matricula">Matrícula</string>
+    <string name="hint_senha">Senha</string>
+    <string name="tx_botao_login">ENTRAR</string>
+    <string name="tx_botao_esqueci_senha">Esqueci a Senha</string>
+</resources>
