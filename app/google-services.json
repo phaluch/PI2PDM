@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016157420015",
+    "project_id": "tresmosqueteiros-9e426",
+    "storage_bucket": "tresmosqueteiros-9e426.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016157420015:android:edbf06bc2994d00346de1a",
+        "android_client_info": {
+          "package_name": "com.tresmosqueteiros.pi2pdm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016157420015-2d89o90je6ck7rt5pt4sh923skgu6cqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuPNBN0IWjEDVBg5gAjooDwXnGZG2HHu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016157420015-2d89o90je6ck7rt5pt4sh923skgu6cqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
