@@ -6,6 +6,6 @@
     <string name="hint_senha">Senha</string>
     <string name="hint_email">Email</string>
     <string name="btn_login">ENTRAR</string>
-    <string name="txt_forgot_password">ESQUECEU A SENHA?</string>
+    <string name="txt_forgot_password">Equeceu a Senha?</string>
     <string name="txt_new_user"><u>Novo usuário? Crie uma conta</u></string>
 </resources>
