@@ -7,7 +7,7 @@
     tools:context=".SignUpActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btLogin3"
+        android:id="@+id/btCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -21,10 +21,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/termsCadastro" />
 
     <View
-        android:id="@+id/topView3"
+        android:id="@+id/topViewCadastro"
         android:layout_width="0dp"
         android:layout_height="20dp"
         android:background="@color/primary"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/inputPassword3"
+        android:id="@+id/inputPasswordCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -50,10 +50,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail3" />
+        app:layout_constraintTop_toBottomOf="@+id/inputEmailCadastro" />
 
     <EditText
-        android:id="@+id/inputPassword4"
+        android:id="@+id/inputRepeatPasswordCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -69,10 +69,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/inputPasswordCadastro" />
 
     <EditText
-        android:id="@+id/inputEmail3"
+        android:id="@+id/inputEmailCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -88,20 +88,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/accountIconCadastro" />
 
     <View
-        android:id="@+id/wavesView2"
+        android:id="@+id/topWavesViewCadastro"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:background="@drawable/ic_wave"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topView3" />
+        app:layout_constraintTop_toBottomOf="@+id/topViewCadastro" />
 
     <View
-        android:id="@+id/wavesView4"
+        android:id="@+id/bottomWavesViewCadastro"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:background="@drawable/ic_wave"
@@ -112,22 +112,22 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/accountIconCadastro"
         android:layout_width="133dp"
         android:layout_height="133dp"
         android:layout_marginStart="152dp"
         android:layout_marginEnd="152dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/wavesView2"
+        app:layout_constraintTop_toBottomOf="@+id/topWavesViewCadastro"
         app:srcCompat="@drawable/ic_account_circle" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/titleCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:text="@string/register_title"
         android:textAlignment="center"
@@ -140,7 +140,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/termsCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -149,6 +149,6 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputPassword4"
+        app:layout_constraintTop_toBottomOf="@+id/inputRepeatPasswordCadastro"
         tools:text="@string/register_terms" />
 </androidx.constraintlayout.widget.ConstraintLayout>
