@@ -13,8 +13,12 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        btCadastro.setOnClickListener {
+        ivSignUpVoltar.setOnClickListener {
+            finish()
+        }
 
+        btCadastro.setOnClickListener {
+            cadastrar()
         }
     }
 

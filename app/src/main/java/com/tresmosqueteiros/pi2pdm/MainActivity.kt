@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        txCriarCadastro.setOnClickListener {
-            val intencaoDeChamada = Intent(this, SignUpActivity::class.java)
+        tvMainEsqueceuSenha.setOnClickListener {
+            val intencaoDeChamada = Intent(this, ForgotActivity::class.java)
             startActivity(intencaoDeChamada)
         }
 
