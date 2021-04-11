@@ -7,11 +7,6 @@
     tools:context=".onboarding.screens.ThirdScreen">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment3" />
 
     <Button
         android:id="@+id/btThirdOnboardingScreenFinal"
@@ -19,8 +14,31 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:text="Button"
+        android:text="Começar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivThirdScreen"
+        android:layout_width="254dp"
+        android:layout_height="264dp"
+        android:src="@drawable/ic_account_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/tvThirdScreen"
+        android:layout_width="322dp"
+        android:layout_height="72dp"
+        android:text="Clique em começar, e registre-se no App"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivThirdScreen" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

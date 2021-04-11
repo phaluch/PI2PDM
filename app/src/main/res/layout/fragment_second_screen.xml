@@ -13,13 +13,41 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:text="Button"
+        android:text="Próximo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <ImageView
+        android:id="@+id/ivSecondScreenPeople"
+        android:layout_width="400dp"
+        android:layout_height="275dp"
+        android:src="@drawable/ic_baseline_groups_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <ImageView
+        android:id="@+id/ivSecondScreenFire"
+        android:layout_width="85dp"
+        android:layout_height="106dp"
+        android:src="@drawable/ic_baseline_local_fire_department_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment2" />
+        android:id="@+id/tvSecondScreen"
+        android:layout_width="371dp"
+        android:layout_height="120dp"
+        android:text="Divirta-se e conheça pessoas"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSecondScreenPeople"
+        app:layout_constraintVertical_bias="0.318" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
